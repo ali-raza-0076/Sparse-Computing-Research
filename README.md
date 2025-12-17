@@ -1,5 +1,4 @@
 # Sparse Matrix Operations: Addition and Multiplication
-## Database Systems Project - COSC 6340
 
 [![Python 3.13+](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
