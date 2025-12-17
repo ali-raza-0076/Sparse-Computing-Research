@@ -1,0 +1,21 @@
+[
+  {
+    "sparsity_percent": 99.0,
+    "actual_sparsity_A": 99.0,
+    "actual_sparsity_B": 99.0,
+    "matrix_size": 1000,
+    "nnz_A": 10000,
+    "nnz_B": 10000,
+    "sparse_time": 0.001056800000090637,
+    "sparse_std": 5.310919578285401e-05,
+    "dense_time": 0.0014619333333030227,
+    "dense_std": 5.6429916968806995e-05,
+    "speedup": 1.3833585665950408,
+    "winner": "Sparse",
+    "memory_sparse_mb": 0.30517578125,
+    "memory_dense_mb": 15.2587890625,
+    "memory_ratio": 50.0,
+    "algorithm": "COO (single-threaded)",
+    "num_runs": 3
+  }
+]

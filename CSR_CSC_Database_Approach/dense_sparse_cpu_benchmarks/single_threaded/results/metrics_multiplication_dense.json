@@ -1,0 +1,48 @@
+{
+  "operation": "multiplication",
+  "execution_mode": "single_threaded_dense",
+  "matrix_a": {
+    "file": "input/dense_matrix_a_300x300.csv",
+    "shape": [
+      300,
+      300
+    ],
+    "nnz": 90000,
+    "total_elements": 90000
+  },
+  "matrix_b": {
+    "file": "input/dense_matrix_b_300x300.csv",
+    "shape": [
+      300,
+      300
+    ],
+    "nnz": 90000,
+    "total_elements": 90000
+  },
+  "result": {
+    "shape": [
+      300,
+      300
+    ],
+    "nnz": 90000,
+    "total_elements": 90000,
+    "file": "C:\\DB_Project_MatMul_BAK\\DB_Project_MatMul\\CSR_CSC_Database_Approach\\dense_sparse_cpu_benchmarks\\single_threaded\\results\\multiplication_dense_300x300_result.csv"
+  },
+  "timing": {
+    "phase1_read_time_sec": 0.4282398999930592,
+    "phase2_compute_time_sec": 0.001949199999216944,
+    "phase3_write_time_sec": 0.1803857000049902,
+    "total_time_sec": 0.6105747999972664,
+    "io_overhead_sec": 0.6086255999980494,
+    "compute_avg_sec": 0.0017450000013923272,
+    "compute_std_sec": 0.0
+  },
+  "percentages": {
+    "read": 70.14,
+    "compute": 0.32,
+    "write": 29.54,
+    "io_overhead": 99.68
+  },
+  "throughput_entries_per_sec": 442206.26,
+  "num_runs": 1
+}

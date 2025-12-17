@@ -1,0 +1,17 @@
+======================================================================
+GPU ADDITION BENCHMARK RESULTS (COO Format)
+======================================================================
+
+Matrix Size: 3000×3000
+Sparsity: 99.9%
+Non-zeros: 8,999
+GPU Device: NVIDIA GeForce RTX 5070 Ti Laptop GPU
+
+Sparse GPU Time: 0.000041s
+Dense GPU Time:  0.000483s
+Speedup: 11.92×
+Winner: Sparse
+
+Memory - Sparse: 0.10 MB
+Memory - Dense:  34.33 MB
+Memory Ratio: 333.37×

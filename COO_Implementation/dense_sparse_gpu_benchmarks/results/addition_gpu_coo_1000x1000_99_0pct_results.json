@@ -1,0 +1,16 @@
+{
+  "matrix_size": 1000,
+  "sparsity_percent": 99.0,
+  "non_zeros": 10000,
+  "actual_sparsity": 99.0,
+  "sparse_time": 0.00029830000069826684,
+  "dense_time": 5.7866666490250886e-05,
+  "speedup": 0.19398815405563322,
+  "winner": "Dense",
+  "sparse_memory_mb": 0.11444091796875,
+  "dense_memory_mb": 3.814697265625,
+  "memory_ratio": 33.333333333333336,
+  "gpu_device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "format": "COO",
+  "num_runs": 3
+}

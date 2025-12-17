@@ -1,0 +1,14 @@
+{
+  "gpu_name": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "cuda_version": "13.0",
+  "pytorch_version": "2.9.1+cu130",
+  "num_nodes": 20000,
+  "base_edges": 399999,
+  "actual_sparsity": 99.90000025,
+  "num_new_edges": 3,
+  "num_runs": 3,
+  "full_recomp_time": 0.017854100001083378,
+  "incremental_time": 0.04011783333407948,
+  "speedup": 0.4450414819864311,
+  "winner": "Full Recomputation"
+}

@@ -1,0 +1,14 @@
+{
+  "num_vertices": 10000,
+  "target_sparsity": 99.9,
+  "actual_edges": 99945,
+  "actual_sparsity": 99.900055,
+  "num_runs": 3,
+  "sparse_time": 0.013348533335374668,
+  "dense_time": 9.503824166662525,
+  "speedup": 711.9751607074794,
+  "winner": "Sparse",
+  "sparse_memory_mb": 0.8006706237792969,
+  "dense_memory_mb": 381.4697265625,
+  "memory_ratio": 476.4377700806609
+}

@@ -1,0 +1,11 @@
+metric,value
+matrix_size,2000
+sparsity_percent,90.0
+non_zeros,400000
+sparse_time_sec,0.0002724333329145641
+dense_time_sec,0.00026870000086394913
+speedup,0.9862963462999377
+winner,Dense
+sparse_memory_mb,4.57763671875
+dense_memory_mb,15.2587890625
+memory_ratio,3.3333333333333335

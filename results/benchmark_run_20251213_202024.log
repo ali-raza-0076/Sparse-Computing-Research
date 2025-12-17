@@ -1,0 +1,75 @@
+Benchmark Run - 2025-12-13 20:20:24
+Platform: Windows 10
+Python Command: python
+Project Root: C:\DB_Project_MatMul_BAK\DB_Project_MatMul
+================================================================================
+
+SKIPPED: COO DB - Dense Addition (Single-threaded) - Script not found: C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_cpu_benchmarks\single_threaded\addition_dense_cpu_benchmark.py
+
+SKIPPED: COO DB - Dense Multiplication (Single-threaded) - Script not found: C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_cpu_benchmarks\single_threaded\multiplication_dense_cpu_benchmark.py
+
+SKIPPED: COO DB - Dense Addition (Multi-core) - Script not found: C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_cpu_benchmarks\multicore_parallel\addition_dense_cpu_parallel_benchmark.py
+
+SKIPPED: COO DB - Dense Multiplication (Multi-core) - Script not found: C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_cpu_benchmarks\multicore_parallel\multiplication_dense_cpu_parallel_benchmark.py
+
+
+================================================================================
+COO DB - Dense Addition (GPU)
+================================================================================
+Timestamp: 2025-12-13 20:20:24
+Command: python C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_gpu_benchmarks\addition_dense_gpu_benchmark.py
+
+Exit Code: 1
+Execution Time: 5.77 seconds
+
+STDOUT:
+
+======================================================================
+DATABASE I/O WORKFLOW: Dense GPU Addition Benchmark
+======================================================================
+
+STDERR:
+Traceback (most recent call last):
+  File "C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_gpu_benchmarks\addition_dense_gpu_benchmark.py", line 229, in <module>
+    main()
+  File "C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_gpu_benchmarks\addition_dense_gpu_benchmark.py", line 225, in main
+    run_gpu_benchmark(args.input_a, args.input_b, num_runs=args.num_runs)
+  File "C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_gpu_benchmarks\addition_dense_gpu_benchmark.py", line 66, in run_gpu_benchmark
+    raise RuntimeError("CUDA not available! This benchmark requires a GPU. Run on Google Colab with T4 GPU.")
+RuntimeError: CUDA not available! This benchmark requires a GPU. Run on Google Colab with T4 GPU.
+
+
+================================================================================
+COO DB - Dense Multiplication (GPU)
+================================================================================
+Timestamp: 2025-12-13 20:20:29
+Command: python C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_gpu_benchmarks\multiplication_dense_gpu_benchmark.py
+
+Exit Code: 1
+Execution Time: 2.83 seconds
+
+STDOUT:
+
+======================================================================
+DATABASE I/O WORKFLOW: Dense GPU Multiplication Benchmark
+======================================================================
+
+STDERR:
+Traceback (most recent call last):
+  File "C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_gpu_benchmarks\multiplication_dense_gpu_benchmark.py", line 219, in <module>
+    main()
+  File "C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_gpu_benchmarks\multiplication_dense_gpu_benchmark.py", line 215, in main
+    run_gpu_benchmark(args.input_a, args.input_b, num_runs=args.num_runs)
+  File "C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\dense_sparse_gpu_benchmarks\multiplication_dense_gpu_benchmark.py", line 66, in run_gpu_benchmark
+    raise RuntimeError("CUDA not available! This benchmark requires a GPU. Run on Google Colab with T4 GPU.")
+RuntimeError: CUDA not available! This benchmark requires a GPU. Run on Google Colab with T4 GPU.
+
+SKIPPED: COO DB - GNN Dynamic Benchmark - Script not found: C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\gnn_benchmark\gnn_dynamic_benchmark.py
+
+
+================================================================================
+COO DB - GNN Static Benchmark
+================================================================================
+Timestamp: 2025-12-13 20:20:32
+Command: python C:\DB_Project_MatMul_BAK\DB_Project_MatMul\COO_Database_Approach\gnn_benchmark\gnn_static_benchmark.py
+

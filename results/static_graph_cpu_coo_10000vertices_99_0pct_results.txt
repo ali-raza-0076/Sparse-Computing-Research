@@ -1,0 +1,19 @@
+======================================================================
+CPU STATIC GRAPH BENCHMARK (COO): Sparse vs Dense
+======================================================================
+
+Graph Size: 10000 nodes
+Sparsity: 99.0%
+Edges: 1,000,000
+Runs: 3
+
+Performance:
+  Sparse (COO): 1.434473s
+  Dense:        9.244353s
+  Speedup:      6.44×
+  Winner:       Sparse
+
+Memory:
+  Sparse: 15.26 MB
+  Dense:  381.47 MB
+  Ratio:  25.00×

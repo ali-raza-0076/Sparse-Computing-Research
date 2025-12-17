@@ -1,0 +1,11 @@
+{
+  "num_nodes": 10000,
+  "base_edges": 99999,
+  "actual_sparsity": 99.900001,
+  "num_new_edges": 3,
+  "num_runs": 3,
+  "full_recomp_time": 0.06929719999607187,
+  "incremental_time": 0.03052156666914622,
+  "speedup": 2.270433911445422,
+  "winner": "Incremental"
+}

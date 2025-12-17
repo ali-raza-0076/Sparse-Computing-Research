@@ -1,0 +1,27 @@
+================================================================================
+GPU MATRIX MULTIPLICATION BENCHMARK: CSR × CSC
+================================================================================
+
+GPU: NVIDIA GeForce RTX 5070 Ti Laptop GPU
+CUDA Version: 13.0
+PyTorch Version: 2.9.1+cu130
+
+Configuration:
+  Matrix Size: 10000×10000
+  Target Sparsity: 90.0%
+  Actual Sparsity: 90.4838%
+  Non-zeros: 9,516,182
+  Runs per test: 3
+
+================================================================================
+RESULTS
+================================================================================
+GPU Sparse Time: 0.919717s
+GPU Dense Time:  0.138242s
+Speedup:         0.15×
+Winner:          Dense
+
+Memory Usage:
+  Sparse: 72.64 MB
+  Dense:  381.47 MB
+  Ratio:  5.25×

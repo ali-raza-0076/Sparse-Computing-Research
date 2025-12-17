@@ -1,0 +1,20 @@
+======================================================================
+GPU STATIC GRAPH BENCHMARK (COO): Sparse vs Dense
+======================================================================
+
+GPU: NVIDIA GeForce RTX 5070 Ti Laptop GPU
+Graph Size: 20000 nodes
+Sparsity: 99.9%
+Edges: 399,999
+Runs: 3
+
+Performance:
+  Sparse (COO): 0.008706s
+  Dense:        1.273960s
+  Speedup:      146.34×
+  Winner:       Sparse
+
+Memory:
+  Sparse: 6.10 MB
+  Dense:  1525.88 MB
+  Ratio:  250.00×

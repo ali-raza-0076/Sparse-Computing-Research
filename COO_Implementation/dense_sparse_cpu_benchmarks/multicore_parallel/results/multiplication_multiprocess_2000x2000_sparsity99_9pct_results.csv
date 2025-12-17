@@ -1,0 +1,2 @@
+Sparsity%,NonZeros,Cores,SparseTime(s),DenseTime(s),Speedup,Winner,Algorithm
+99.9,3999,8,1.746771,44.591160,25.53,Sparse,COO×COO (8-core parallel)

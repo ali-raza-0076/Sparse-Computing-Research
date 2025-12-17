@@ -1,0 +1,21 @@
+================================================================================
+CPU STATIC GRAPH BENCHMARK: Sparse CSR vs Dense
+================================================================================
+
+Graph Configuration:
+  Vertices: 10,000
+  Target Sparsity: 99.9%
+  Actual Edges: 99,945
+  Actual Sparsity: 99.9001%
+  Runs per test: 3
+
+Results:
+  CPU Sparse (CSR) Time: 0.013349s
+  CPU Dense (NumPy) Time: 9.503824s
+  Speedup: 711.98×
+  Winner: Sparse
+
+Memory Usage:
+  Sparse: 0.80 MB
+  Dense: 381.47 MB
+  Memory Ratio: 476.44× savings

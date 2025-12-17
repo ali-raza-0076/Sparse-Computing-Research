@@ -1,0 +1,19 @@
+================================================================================
+GPU DYNAMIC GRAPH BENCHMARK (COO Format): Incremental Edge Addition
+================================================================================
+
+GPU: NVIDIA GeForce RTX 5070 Ti Laptop GPU
+CUDA Version: 13.0
+
+Graph Configuration:
+  Nodes: 20,000
+  Base Edges: 399,999
+  Sparsity: 99.9000%
+  New Edges Added: 3
+  Runs per test: 3
+
+Results:
+  Full Recomputation Time: 0.017854s
+  Incremental Update Time: 0.040118s
+  Speedup: 0.45×
+  Winner: Full Recomputation

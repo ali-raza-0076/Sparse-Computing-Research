@@ -1,0 +1,2 @@
+Sparsity%,NonZeros,SparseTime(s),DenseTime(s),Speedup,Winner,SparseMem(MB),DenseMem(MB),Algorithm
+99.0,40000,0.084497,0.003343,0.04,Dense,1.22,30.52,CSR (single-threaded)

@@ -1,0 +1,4 @@
+Sparsity%,NonZeros,SparseTime(s),DenseTime(s),Speedup,Winner,SparseMem(MB),DenseMem(MB),Algorithm
+90,100000,1.701374,0.021604,0.01,Dense,3.05,15.26,COO×COO (single-threaded)
+99,10000,0.021378,0.018963,0.89,Dense,0.31,15.26,COO×COO (single-threaded)
+99.9,999,0.000924,0.020499,22.19,Sparse,0.03,15.26,COO×COO (single-threaded)

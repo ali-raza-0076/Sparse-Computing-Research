@@ -1,0 +1,20 @@
+COO Sparse Matrix Addition Benchmark - TRUE Multiprocessing
+================================================================================
+Date: 2025-12-05 11:34:42
+Matrix Size: 1000 x 1000
+Sparsity: 99.0%
+Number of Cores: 16
+
+Matrix A: 10,000 non-zero entries
+Matrix B: 10,000 non-zero entries
+Result C: 19,800 non-zero entries
+
+Sparse COO Addition (multiprocess, 16 cores): 0.373877 seconds
+Dense NumPy Addition (single-thread):                  0.001465 seconds
+
+Speedup (Dense/Sparse): 0.00x
+Memory Savings: 50.00x
+
+Sparse Memory (A+B): 0.31 MB
+Dense Memory (A+B): 15.26 MB
+================================================================================

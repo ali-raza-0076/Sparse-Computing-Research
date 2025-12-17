@@ -1,0 +1,15 @@
+{
+  "gpu_name": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "num_nodes": 20000,
+  "sparsity": 99.9,
+  "num_edges": 399999,
+  "actual_sparsity": 99.90000025,
+  "num_runs": 3,
+  "sparse_time": 0.008705766666632067,
+  "dense_time": 1.273959533332042,
+  "speedup": 146.3351341835226,
+  "winner": "Sparse",
+  "sparse_memory_mb": 6.1035003662109375,
+  "dense_memory_mb": 1525.87890625,
+  "memory_ratio": 250.0006250015625
+}

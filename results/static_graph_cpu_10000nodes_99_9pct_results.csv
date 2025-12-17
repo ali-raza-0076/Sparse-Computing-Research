@@ -1,0 +1,12 @@
+Metric,Value
+Vertices,10000
+Target_Sparsity,99.9
+Actual_Edges,99945
+Actual_Sparsity,99.900055
+Sparse_Time_s,0.013348533335374668
+Dense_Time_s,9.503824166662525
+Speedup,711.9751607074794
+Winner,Sparse
+Sparse_Memory_MB,0.8006706237792969
+Dense_Memory_MB,381.4697265625
+Memory_Ratio,476.4377700806609

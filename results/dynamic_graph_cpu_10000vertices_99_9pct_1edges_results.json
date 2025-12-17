@@ -1,0 +1,11 @@
+{
+  "num_vertices": 10000,
+  "base_edges": 99945,
+  "actual_sparsity": 99.900055,
+  "num_new_edges": 1,
+  "num_runs": 3,
+  "full_recomp_time": 0.07905936667035955,
+  "incremental_time": 0.026811766671016812,
+  "speedup": 2.9486817351659913,
+  "winner": "Incremental"
+}

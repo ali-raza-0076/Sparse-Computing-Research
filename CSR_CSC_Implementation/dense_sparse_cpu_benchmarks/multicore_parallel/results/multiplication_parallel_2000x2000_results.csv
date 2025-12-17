@@ -1,0 +1,2 @@
+Sparsity%,NonZeros,Cores,SparseTimeCompute(s),SparseTimeTotal(s),DenseTime(s),Speedup,Winner,Algorithm
+99.0,40000,16,22.153522,22.726919,5.100626,0.23,Dense,CSR×CSC (16-core parallel)

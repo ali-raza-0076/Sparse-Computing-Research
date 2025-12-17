@@ -1,0 +1,48 @@
+{
+  "operation": "addition",
+  "execution_mode": "single_threaded_dense",
+  "matrix_a": {
+    "file": "input/dense_matrix_a_300x300.csv",
+    "shape": [
+      300,
+      300
+    ],
+    "nnz": 90000,
+    "total_elements": 90000
+  },
+  "matrix_b": {
+    "file": "input/dense_matrix_b_300x300.csv",
+    "shape": [
+      300,
+      300
+    ],
+    "nnz": 90000,
+    "total_elements": 90000
+  },
+  "result": {
+    "shape": [
+      300,
+      300
+    ],
+    "nnz": 89572,
+    "total_elements": 90000,
+    "file": "C:\\DB_Project_MatMul_BAK\\DB_Project_MatMul\\COO_Database_Approach\\dense_sparse_cpu_benchmarks\\single_threaded\\results\\addition_dense_300x300_result.csv"
+  },
+  "timing": {
+    "phase1_read_time_sec": 0.22188879999157507,
+    "phase2_compute_time_sec": 0.0006084000051487237,
+    "phase3_write_time_sec": 0.1364025000075344,
+    "total_time_sec": 0.3588997000042582,
+    "io_overhead_sec": 0.35829129999910947,
+    "compute_avg_sec": 0.0004165999998804182,
+    "compute_std_sec": 0.0
+  },
+  "percentages": {
+    "read": 61.82,
+    "compute": 0.17,
+    "write": 38.01,
+    "io_overhead": 99.83
+  },
+  "throughput_entries_per_sec": 751106.79,
+  "num_runs": 1
+}

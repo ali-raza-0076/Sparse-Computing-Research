@@ -1,0 +1,10 @@
+metric,value
+num_vertices,10000
+sparsity,99.0
+num_edges,1000000
+sparse_time,1.4344727999996394
+dense_time,9.244352766661905
+speedup,6.444425273636578
+winner,Sparse
+sparse_memory_mb,15.2587890625
+dense_memory_mb,381.4697265625

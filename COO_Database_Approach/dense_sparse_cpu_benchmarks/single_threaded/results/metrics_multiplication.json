@@ -1,0 +1,46 @@
+{
+  "operation": "multiplication",
+  "execution_mode": "single_threaded",
+  "matrix_a": {
+    "file": "input/matrix_a_5k.csv",
+    "shape": [
+      5001,
+      5001
+    ],
+    "nnz": 25000
+  },
+  "matrix_b": {
+    "file": "input/matrix_b_5k.csv",
+    "shape": [
+      5001,
+      5001
+    ],
+    "nnz": 25000
+  },
+  "result": {
+    "operation": "B\u00d7A",
+    "shape": [
+      5001,
+      5001
+    ],
+    "nnz": 124047,
+    "file": "C:\\DB_Project_MatMul_BAK\\DB_Project_MatMul\\COO_Database_Approach\\dense_sparse_cpu_benchmarks\\single_threaded\\results\\multiplication_coo_BxA_5001x5001_result.csv"
+  },
+  "timing": {
+    "phase1_read_time_sec": 0.07324299999163486,
+    "phase2_compute_time_sec": 2.5606193999992684,
+    "phase3_write_time_sec": 0.37989850000303704,
+    "total_time_sec": 3.0137608999939403,
+    "io_overhead_sec": 0.4531414999946719,
+    "compute_avg_sec": 2.5606125999911455,
+    "compute_std_sec": 0.0
+  },
+  "percentages": {
+    "read": 2.43,
+    "compute": 84.96,
+    "write": 12.61,
+    "io_overhead": 15.04
+  },
+  "throughput_entries_per_sec": 57750.77,
+  "num_runs": 1
+}

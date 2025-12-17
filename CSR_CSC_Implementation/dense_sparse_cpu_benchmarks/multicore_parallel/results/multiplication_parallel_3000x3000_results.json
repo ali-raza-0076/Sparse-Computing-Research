@@ -1,0 +1,25 @@
+[
+  {
+    "sparsity_percent": 99.9,
+    "actual_sparsity_A": 99.90001111111111,
+    "actual_sparsity_B": 99.90001111111111,
+    "matrix_size": 3000,
+    "nnz_A": 8999,
+    "nnz_B": 8999,
+    "result_nnz": 26511,
+    "num_cores": 16,
+    "sparse_time_total": 3.7530718999987585,
+    "sparse_std_total": 0.0,
+    "sparse_time_compute": 3.722149900000659,
+    "sparse_std_compute": 0.0,
+    "dense_time": 54.971197500002745,
+    "dense_std": 0.0,
+    "speedup": 14.76866837093074,
+    "winner": "Sparse",
+    "memory_sparse_mb": 0.274627685546875,
+    "memory_dense_mb": 68.66455078125,
+    "memory_ratio": 250.02778086454052,
+    "algorithm": "CSR\u00d7CSC (16-core parallel)",
+    "num_runs": 1
+  }
+]

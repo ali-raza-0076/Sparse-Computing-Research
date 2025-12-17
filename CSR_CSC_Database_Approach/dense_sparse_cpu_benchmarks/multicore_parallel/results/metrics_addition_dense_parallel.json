@@ -1,0 +1,49 @@
+{
+  "operation": "addition",
+  "execution_mode": "multicore_parallel",
+  "format": "dense",
+  "matrix_a": {
+    "file": "input/dense_matrix_a_300x300.csv",
+    "shape": [
+      300,
+      300
+    ],
+    "nnz": 90000,
+    "total_elements": 90000
+  },
+  "matrix_b": {
+    "file": "input/dense_matrix_b_300x300.csv",
+    "shape": [
+      300,
+      300
+    ],
+    "nnz": 90000,
+    "total_elements": 90000
+  },
+  "result": {
+    "shape": [
+      300,
+      300
+    ],
+    "nnz": 89572,
+    "total_elements": 90000,
+    "file": "C:\\DB_Project_MatMul_BAK\\DB_Project_MatMul\\CSR_CSC_Database_Approach\\dense_sparse_cpu_benchmarks\\multicore_parallel\\results\\addition_dense_parallel_300x300_result.csv"
+  },
+  "timing": {
+    "phase1_read_time_sec": 0.21710629999870434,
+    "phase2_compute_time_sec": 0.0004081000079168007,
+    "phase3_write_time_sec": 0.13938009999401402,
+    "total_time_sec": 0.35689450000063516,
+    "io_overhead_sec": 0.35648639999271836,
+    "compute_avg_sec": 0.00040299999818671495,
+    "compute_std_sec": 0.0
+  },
+  "percentages": {
+    "read": 60.83,
+    "compute": 0.11,
+    "write": 39.05,
+    "io_overhead": 99.89
+  },
+  "throughput_entries_per_sec": 755326.85,
+  "num_runs": 1
+}

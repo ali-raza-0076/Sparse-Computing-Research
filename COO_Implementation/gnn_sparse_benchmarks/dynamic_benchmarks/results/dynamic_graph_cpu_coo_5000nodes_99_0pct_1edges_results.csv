@@ -1,0 +1,9 @@
+Metric,Value
+Nodes,5000
+Base_Edges,250000
+Sparsity,99.0
+New_Edges,1
+Full_Recomp_Time_s,0.08647783333435655
+Incremental_Time_s,0.027266666666643385
+Speedup,3.171558679746836
+Winner,Incremental
