@@ -16,9 +16,9 @@ Sparse matrices, which are characterized by having a high proportion of zero ele
 
 1. The computational overhead of dense representations.
 2. The need for optimized memory usage.
-3. The trade-offs between CPU and GPU performance for sparse workloads.
+3. The trade-offs between CPU and GPU performance for sparse and dense workloads.
 
-This project explores and benchmarks various approaches to address these challenges by combining sparse storage formats (CSR/CSC and COO) with memory models (in-memory and database-driven).
+This project explores and benchmarks various approaches to address these challenges by combining sparse storage formats (CSR/CSC and COO) with memory models (in-memory and database-driven). Additionally, we compare the performance of sparse and dense matrix operations to identify scenarios where each approach excels.
 
 ---
 
@@ -26,7 +26,7 @@ This project explores and benchmarks various approaches to address these challen
 
 The motivation for this project stems from the need to:
 
-- Identify the most efficient methods for sparse matrix operations across different hardware configurations.
+- Identify the most efficient methods for sparse and dense matrix operations across different hardware configurations.
 - Optimize performance for real-world applications such as graph neural networks (GNNs) and dynamic graph updates.
 - Evaluate the trade-offs between computational speed, memory efficiency, and database I/O overhead.
 
