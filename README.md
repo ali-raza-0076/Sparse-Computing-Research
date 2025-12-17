@@ -45,3 +45,26 @@ The motivation for this project stems from the need to:
 | **Hardware Utilization**    | Fully utilized modern hardware like multi-core CPUs and GPUs for better results.|
 
 ---
+
+## Getting Started
+
+For detailed setup instructions, system requirements, and how to run the benchmarks, please refer to the [instructions.md](instructions.md) file. It includes:
+
+- **Installation Instructions**: Step-by-step setup for Windows, Linux, and WSL2
+- **System Requirements**: Minimum and recommended hardware specifications
+- **Running Benchmarks**: How to execute individual or all benchmarks
+- **Troubleshooting Guide**: Common issues and their solutions
+
+### Quick Start
+
+```powershell
+# Install dependencies
+python install_requirements.py
+
+# Run all benchmarks
+python run_all_benchmarks.py
+```
+
+For complete instructions, see [instructions.md](instructions.md).
+
+---
